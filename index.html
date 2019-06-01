@@ -5,25 +5,43 @@
     </head>
     <body>
         <!-- Inputs -->
-        <div>
-            <h5>Total amount $</h5>
-            <input type="number" name="$ Total">
-            <h5>Your Generosity</h5>
-            <input type="range"/>        
-            <h5>Friendliness</h5>
-            <input type="range"/>
-            <h5>Responsiveness</h5>
-            <input type="range"/>
+        <div class="input-section">
+            <div class="slider">
+                <h5>Total amount $</h5>
+                <input type="number" name="$ Total">
+            </div>
+            <div class="slider">
+                <h5>Your Generosity</h5>
+                <div>
+                    <input id="gen-min" class="tinybox" type="box" value="0"/>
+                    <input type="range"/>
+                    <input id="gen-max" class="tinybox" type="box" value="5"/>
+                </div>
+            </div>
+            <div class="slider">
+                <h5>Friendliness</h5>
+                <input type="range"/>
+            </div>
+            <div class="slider">
+                <h5>Responsiveness</h5>
+                <input type="range"/>
+            </div>
         </div>
 
         <!-- Rating -->
-        <div>
-            <h5>Your rating</h4>
-            <h5>Google rating</h4>
+        <div class="rating-section">
+            <div class="rating">
+                <h5>Your rating</h4>
+                <h3 id="your_rating">3.5</h3>
+            </div>
+            <div class="rating">
+                <h5>Google rating</h4>
+                <h3 id="google_rating">4.5</h3>
+            </div>
         </div>
 
         <!-- Calculation -->
-        <div>
+        <div class="calculation-section">
             <h5>Tips</h5>
             <h5>Total</h5>
         </div>

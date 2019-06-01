@@ -3,3 +3,27 @@ html{
     width: 50%;
 }
 
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slider .title{
+
+}
+
+.slider .tinybox{
+    width: 30px;
+}
+
+.rating-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rating{
+}
