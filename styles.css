@@ -1,6 +1,6 @@
 html{
     margin: auto;
-    width: 50%;
+    width: 75%;
 }
 
 .slider{
@@ -15,7 +15,20 @@ html{
 }
 
 .slider .tinybox{
-    width: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.slider .generosity-slider{
+    flex-direction: row;
+    display: flex;
+}
+
+.slider .range-labels{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 10px 10px;
+    align-items: center;
 }
 
 .rating-section{
@@ -27,3 +40,36 @@ html{
 
 .rating{
 }
+
+.calculation-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.avgMessage{
+    
+}
+
+.aboveAvg{
+    color: green;
+}
+
+.belowAvg{
+    color: red;
+}
+
+.sameAvg{
+    color: black;
+}
+
+.output{
+    display: flex;
+    flex-direction: row;
+}
+
+.output h6{
+    margin-left: 5px;
+}
+
