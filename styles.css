@@ -1,6 +1,10 @@
+h1,h2,h3,h4,h5,h6,input,p{
+    font-family: 'Roboto', sans-serif;
+
+}
 html{
     margin: auto;
-    width: 75%;
+/*    width: 75%;*/
 }
 
 .slider{
@@ -8,10 +12,20 @@ html{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 0 1em;
 }
 
 .slider .title{
 
+}
+
+.input-wrapper{
+    margin: 2em 0 1em;
+}
+
+.input-wrapper input{
+    width: 90%;
+    padding: .5em;
 }
 
 .slider .tinybox{
@@ -27,7 +41,7 @@ html{
 .slider .range-labels{
     display: flex;
     justify-content: space-between;
-    margin: 0px 0px 10px 10px;
+    margin: 10px 0px;
     align-items: center;
 }
 
@@ -38,6 +52,11 @@ html{
     justify-content: space-evenly;
 }
 
+.rating-section h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+
 .rating{
 }
 
@@ -46,30 +65,33 @@ html{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    background: lightgray;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
 }
 
 .avgMessage{
-    
-}
-
-.aboveAvg{
-    color: green;
-}
-
-.belowAvg{
-    color: red;
-}
-
-.sameAvg{
-    color: black;
+    margin: 10px;
 }
 
 .output{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .output h6{
     margin-left: 5px;
+}
+
+h5, h6{
+    margin: 0;
+}
+.input-wrapper  h5{
+    font-weight: 900;
+    width: 90%;
+
 }
 
