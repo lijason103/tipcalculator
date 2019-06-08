@@ -21,9 +21,9 @@
                 <h5>Total amount $</h5>
             	<input id="totalBeforeTips"value="10" type="number" name="$ Total">
             </div>
-            <div class="slider" style="display:none;">
+            <div class="slider">
                 <h5>Max Tip Percent %</h5>
-            	<input id="maxTipPercent"value="12" type="number" name="$ Total">
+            	<input id="maxTipPercent"value="20" type="number" name="$ Total">
             </div>
         </div>
         <!-- Rating -->
