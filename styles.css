@@ -41,7 +41,8 @@ html{
 .slider .range-labels{
     display: flex;
     justify-content: space-between;
-    margin: 10px 0px;
+    margin-left: 5px;
+    margin-right: 5px;
     align-items: center;
 }
 

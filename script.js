@@ -71,7 +71,8 @@ var calculateAverageRatings = function(){
 
 var calculateTips = function(){
 	store.tips = (store.total * (store.averageRating / 5 * store.maxTipPercent) / 100).toFixed(2)
-	$('#tips').html(store.tips)
+	tipsPercent = store.tips/store.total*100
+	$('#tips').html(`${store.tips} (${tipsPercent.toFixed(2)}%)`)
 }
 
 var calculateTotalAfterTips = function(){
@@ -110,11 +111,12 @@ jQuery(document).ready(function($){
 	});
     // autocomplete.setFields(['place_id', 'geometry', 'name']);
     autocomplete.addListener('place_changed', function() {
-    	var place = autocomplete.getPlace();
+			var place = autocomplete.getPlace();
+			console.log(place)
     	store.googleRating = place.rating
     	store.googleRatingCount = place.user_ratings_total
-		$('#google_rating').html(store.googleRating)
-		calculateDifference()
+			$('#google_rating').html(store.googleRating)
+			calculateDifference()
     })
 
 })
