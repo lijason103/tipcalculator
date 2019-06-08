@@ -89,9 +89,7 @@
 
         <!-- Calculation -->
         <div class="calculation-section">
-            <div>
-                <p class="avgMessage aboveAvg" id="avgMessage">-</p>
-            </div>
+            <p class="avgMessage aboveAvg" id="avgMessage">-</p>
             <div>
                 <div class="output">
                     <h5>Tips:</h5>

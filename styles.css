@@ -63,7 +63,7 @@ html{
 
 .calculation-section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background: lightgray;
@@ -75,24 +75,33 @@ html{
 
 .avgMessage{
     margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .output{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 40px;
 }
 
 .output h6{
     margin-left: 5px;
+    font-size: 20px;
+}
+
+.output h5{
+    font-size: 20px;
 }
 
 h5, h6{
     margin: 0;
 }
+
+
 .input-wrapper  h5{
     font-weight: 900;
     width: 90%;
-
 }
 
