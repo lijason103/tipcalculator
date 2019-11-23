@@ -1,3 +1,3 @@
 # tipcalculator
 
-A calculator that calculates tips based on your rating and google's rating for a restaurant. It also shows if your tips is above or below the average.
+Tipcalculator suggests a personalized tipping amount based on the restaurant's ratings from the user and google reviews. It also compares the user's tipping amount with the average tip.
